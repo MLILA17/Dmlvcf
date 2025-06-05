@@ -563,7 +563,7 @@
     
     // Countdown logic
     const REG_PERIOD_SECONDS = 24 * 60 * 60;
-    const END_TIME_KEY = "pkdrill_vcf_end";
+    const END_TIME_KEY = "dml_vcf_end";
     let endTime = window.localStorage.getItem(END_TIME_KEY);
     
     if (!endTime) {
@@ -689,8 +689,8 @@ END:VCARD
       // Add owner contact
       vcf += `BEGIN:VCARD
 VERSION:3.0
-N:PK DML SUPPORT
-FN:PK DML SUPPORT
+N:DML SUPPORT
+FN:DML SUPPORT
 EMAIL:daudymusa1705@gmail.com
 TEL;TYPE=CELL:+255713541112
 NOTE:DML VCF SUPPORT Owner
